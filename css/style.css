@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root{
+    --ff: 'Montserrat', sans-serif;
+    --brand : #EC594D;
+}
+
+/*
+root css ends
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/*
+common css ends
+*/
+
+.m-reg{
+    font-family: var(--ff);
+    font-weight: 400;
+}
+
+.m-bold{
+    font-family: var(--ff);
+    font-weight: 700;
+}
+
+.m-semi{
+    font-family: var(--ff);
+    font-weight: 600;
+}
+
+.m-med{
+    font-family: var(--ff);
+    font-weight: 500;
+}
+
+/*
+font family css ends
+*/
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-22{
+    font-size: 22px;
+}
+
+.fs-24{
+    font-size: 24px;
+}
+
+.fs-26{
+    font-size: 26px;
+}
+
+.fs-45{
+    font-size: 45px;
+}
+
+.fs-64{
+    font-size: 64px;
+}
+
+.fs-75{
+    font-size: 75px;
+}
+
+/*
+font size css ends
+*/
+
+.brand{
+    color: var(--brand);
+}
+
+/*
+color css ends
+*/
+
+nav{
+    z-index: 999;
+}
+
+.br-300{
+    border-radius: 300px;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    -ms-border-radius: 300px;
+    -o-border-radius: 300px;
+    box-sizing: border-box;
+}
+
+.br-48{
+    border-radius: 48%;
+    -webkit-border-radius: 48%;
+    -moz-border-radius: 48%;
+    -ms-border-radius: 48%;
+    -o-border-radius: 48%;
+    box-sizing: border-box;
+}
+
+/*
+nav css ends
+*/
+
+#hero .hero{
+    padding: 216px 0;
+}
+
+#hero .hero .hero-text h1{
+    margin-top: 37px;
+    margin-bottom: 85px;
+}
+
+.down{
+    padding: 80px 48px;
+    background-color: rgba(236, 90, 77, 0.10);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/*
+hero css ends
+*/
+
+#work .work header{
+    margin-bottom: 116px;
+}
+
+#work .work .work-item{
+    margin-bottom: 120px;
+}
+
+#work .work .work-item2{
+    margin: 120px 0;
+}
+
+#work .work .work-item3{
+    margin: 120px 0;
+}
+
+/*
+work css ends
+*/
+
+#faq .faq{
+    margin: 120px 0;
+}
+
+#faq .faq header{
+    margin-bottom: 68px;
+}
+
+#faq .faq h4{
+    cursor: pointer;
+}
+
+#faq .faq span{
+    padding-left: 390px;
+}
+
+.accordion-container .accordion-title {
+    position: relative;
+    margin: 0;
+    padding: 0.625em 0.625em 0.625em 2em;
+    transition: all linear 0.4s;
+    cursor: pointer;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  .accordion-container .accordion-title:hover,
+  .accordion-container .accordion-title:active,
+  .accordion-title.open {
+    background-color: rgba(236, 90, 77, 0.10);
+    color: var(--brand);
+    border: 2px solid #fff;
+  }
+  
+  .accordion-container .accordion-title::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    width: 15px;
+    height: 2px;
+    transform: rotate(90deg);
+    background: #000;
+    transition: all .3s ease-in-out;
+  }
+  
+  .accordion-container .accordion-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    width: 15px;
+    height: 2px;
+    background: #000;
+    transition: all .2s ease-in-out;
+  }
+  
+  .accordion-container .accordion-title.open::before {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-container .accordion-title.open::after {
+    opacity: 0;
+  }
+  
+  .accordion-content {
+    padding-left: 2.3125em;
+    background-color: rgba(236, 90, 77, 0.10);
+  }
+
+/*
+faq css ends
+*/
+
+#con .con button{
+    margin: 50px 0;
+    background-color: var(--brand);
+    border-radius: 300px;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    -ms-border-radius: 300px;
+    -o-border-radius: 300px;
+    border: transparent;
+}
+
+/*
+con css ends
+*/
+
+footer{
+    margin: 84px 0;
+}
